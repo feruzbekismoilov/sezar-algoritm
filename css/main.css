@@ -75,6 +75,7 @@ a{
 }
 
 .btn-success{
+    position: relative;
     display: inline;
 }
 .result-end{
@@ -82,4 +83,17 @@ a{
     min-height: 400px;
     border: 1px solid #c4cbdd;
     border-radius: 5px;
+}
+
+.copy{
+    position: absolute;
+    bottom: -30px;
+    right: -70px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
 }

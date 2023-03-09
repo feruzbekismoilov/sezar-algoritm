@@ -53,8 +53,9 @@ btnDecript.addEventListener("click", (evt) => {
     }
     newTextEnd ='';
 })
-
+const elCopy = document.querySelector(".copy");
 elCopyBtn.addEventListener('click', (evt)=>{
     evt.preventDefault();
     navigator.clipboard.writeText(elResult.textContent);
+    elCopy.style.display = 'flex';
 })
